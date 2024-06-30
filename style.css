@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(0, 16%, 96%);
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 18%;
+  font-size:1rem;
+  margin-bottom: 20%;
+  
+}
+h2{
+  margin-bottom: -5%;
+  font-weight: 200;
+  font-size: 1.7rem
+}
+.hh2{
+  margin-bottom: 10%;
+  font-weight: 600;
+}
+.toptext{
+  text-align: center;
+}
+.toptext p{
+  font-size: 1.17rem;
+  text-align: start;
+  line-height: 1.5;
+}
+.grid{
+  margin-top: 5vh;
+}
+.Supervisor{
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+.Builder{
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+.Karma{
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+.Calculator{
+  border-top: 3px solid hsl(180, 62%, 55%);
+ 
+}
+.griditems{
+  padding-bottom: 10vh;
+  box-shadow: 0px 10px 10px rgba(0, 0, 255, 0.2);
+ margin-top: 12%;
+  padding-left: 10%;
+  font-size: 1.2rem;
+}
+.griditems img{
+  float: right;
+  padding-right: 10%;
+}
+
+@media (min-width: 700px) and (max-width: 1200px) {
+.grid {
+    margin-top: 5vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  column-gap: 50px;
+
+  }
+  .grid p{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding-top: 10%;
+  }
+    .grid h3{
+      font-size: 1.8rem;
+    }
+
+.griditems img {
+  float: right;
+  padding-right: 5%;
+  padding-top: 10%;
+}
+.griditems{
+  padding-top: 10vh;
+  height: 30vh;
+}
+
+h2{
+  padding-bottom: 3%;
+  font-size: 2.5rem;
+}
+.toptext p{
+  font-size: 1.5rem;
+  width: 70%;
+  padding-left: 22%;
+  text-align: center;
+}
+}
+
+@media (min-width: 1201px) {
+  .grid {
+      margin-top: 5vh;
+     position: relative;
+     height: 50vh;
+  
+    }
+        h2 {
+          padding-bottom: 3%;
+          font-size: 2.5rem;
+        }
+    .Supervisor {
+   position: absolute;
+   height: 25vh;
+   width: 23vw;
+   top: 20vh;
+   left: -10%;
+   text-align: start;
+    }
+
+    .Builder{
+      position: absolute;
+        height: 25vh;
+        width: 23vw;
+        top: -10%;
+        left: 30%;
+    }
+      .Karma {
+        position: absolute;
+          height: 25vh;
+          width: 23vw;
+        top: 68%;
+        left: 31%;
+       }
+    .Calculator{
+      position: absolute;
+        height: 25vh;
+        width: 23vw;
+        top: 20vh;
+        right: -10%;
+    }
+    .grid h3{
+      font-size: 1.7rem;
+      margin-left: -10%;
+    } 
+    .grid p{
+      margin-left: -10%;
+      font-size: 1.3rem; 
+    }
+        .toptext p {
+          font-size: 1.5rem;
+          width: 70%;
+          padding-left: 22%;
+          text-align: center;
+         
+        }
+                .hh2 {
+                  margin-bottom: 2%;
+                  font-weight: 600;
+                }
+}
